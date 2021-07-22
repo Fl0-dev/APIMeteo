@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Météo</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-8">
+            <!-- Titre -->
+            <h1 class="text-center mt-5">Météo</h1>
+
+            <!-- Ville / Temperature -->
+            <div class="text-center">
+                <span id="ville">nantes</span>
+
+                <div id="temperature">
+          <span id="temperature_label">
+            xx.x
+          </span> °C
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <!-- Changer de ville -->
+            <div id="changer" class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase d-inline-block">
+                Changer de ville
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
